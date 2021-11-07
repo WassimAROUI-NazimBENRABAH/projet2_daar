@@ -1,6 +1,4 @@
-# projet2_daar : Indexing CVs using ELK
-
-Project : Indexing CVs in Elasticsearch
+# Project II DAAR : Indexing CVs using ELK
 
 UE : DAAR
 
