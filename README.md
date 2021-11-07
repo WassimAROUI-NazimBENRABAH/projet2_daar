@@ -1,9 +1,6 @@
 # projet2_daar
 Indexing CVs using ELK
 
-
-
-
 Project : Indexing CVs in Elasticsearch
 
 UE : DAAR
@@ -16,7 +13,7 @@ Class : M2 RES ALT/INSTA
 ----------------------------------------------------------------------------------------------------------
 Requirements :
 
-- Python
+- Install Python
 - Preferably install Docker
 - pip install django
 - pip install elasticsearch
@@ -27,6 +24,8 @@ Requirements :
 
 ------------------------------------------------------------------------------------------------------------------------ 
 Step 1 : Run the ELK stack using docker
+
+Unzip elastic_dar_windows.zip if you are a Windows user otherwise unzip elastic_daar_linux.zip if you a re a Linux or Mac user
 
 Open terminal in /elastic_daar/run_elk_stack  and tap : docker-compose up
 
