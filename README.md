@@ -20,6 +20,7 @@ Requirements :
 - pip install docx2txt
 - pip install pdfminer.six
 - pip install json or jsonlib
+- Install postman
 
 ------------------------------------------------------------------------------------------------------------------------ 
 Step 1 : Run the ELK stack using docker
@@ -55,7 +56,21 @@ Choose your files and upload (visualise logs on Kibana --> logs --> streams)
 
 -------------------------------------------------------------------------------------------------------------------------
 
-Step 4 do queries on Kibana or Postman :
+Step 4 do queries on Postman :
 
+Open the Postman application then the url field choose GET request and enter the follwing url "127.0.0.1:9200/cv/_search" ,once it's done below the url field you choose the body option and then you choose JSON and there you go you are ready to do queries.
+
+ Our documents are indexed on elasticsearch as follows :
+ - **name** : First name and Last name of the CV owner.
+ - **Telephone** :  The phone number of the CV owner.
+ - **Email** : The amil address of the CV owner.
+ - **content** : The conten of the CV.
+
+
+ Finaly there is some exemple of queries :
+ 
+ - To get profiles that have Java programming as a skill ==> {"query":{"match":{"content":" java"}}}
+ - To obtain profiles having studied at Sorbonne University  ==> {"query":{"match":{"content":" Sorbonne University"}}}
+ - To get a specific profile  ==> {"query":{"match":{"name":" {name of the profile}"}}}
 
 
