@@ -33,10 +33,9 @@ this will run Elasticsearch, Kibana, and Logstash in one commande at port 9200, 
 
 Wait a few moment and make sure that elasticsearch and Kibana are ready by opening in browser : localhost:9200  and  localhost:5601
 
-#####################
-USERNAME : elastic  #
-PASSWORD : changeme #
-#####################
+USERNAME : elastic  
+PASSWORD : changeme
+
 
 -------------------------------------------------------------------------------------------------------------------------
 Step 2 Configure logstash in Kibana
