@@ -6,8 +6,8 @@ Project : Indexing CVs in Elasticsearch
 UE : DAAR
 
 Group mermbers:
-- Wassim AROUI
-- Nazim BENRABAH https://github.com/nazim-benrabah
+- Wassim AROUI : 
+- Nazim BENRABAH : https://github.com/nazim-benrabah
 
 Class : M2 RES ALT/INSTA
 
