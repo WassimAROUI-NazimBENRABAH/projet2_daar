@@ -2,7 +2,7 @@
 
 UE : DAAR
 
-Group mermbers:
+Group members:
 - Wassim AROUI : https://github.com/Arouiwassim
 - Nazim BENRABAH : https://github.com/nazim-benrabah
 
