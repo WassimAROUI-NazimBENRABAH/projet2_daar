@@ -3,7 +3,7 @@
 UE : DAAR
 
 Group mermbers:
-- Wassim AROUI : 
+- Wassim AROUI : https://github.com/Arouiwassim
 - Nazim BENRABAH : https://github.com/nazim-benrabah
 
 Class : M2 RES ALT/INSTA
